@@ -1,0 +1,58 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "discord.js": "^12.3.1",
+    "fs": "^0.0.2",
+    "path": "^0.12.7",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^3.2.1",
+    "ytdl-core-discord": "^1.2.0",
+    "@discordjs/opus": "^0.3.2",
+    "genius-lyrics": "^3.0.0",
+    "moment": "^2.27.0",
+    "ms": "^2.1.2",
+    "got": "^11.5.1",
+    "mathjs": "^7.1.0",
+    "quick.db": "^7.1.1",
+    "node-fetch": "^2.6.0",
+    "weather-js": "^2.0.0",
+    "request-promise-native": "^1.0.9",
+    "imdb-api": "^4.2.0",
+    "anime-scraper": "^3.1.1",
+    "give-me-a-joke": "^0.3.2",
+    "snekfetch": "^4.0.4",
+    "superagent": "^6.1.0",
+    "utils": "^0.3.1",
+    "url": "^0.11.0",
+    "ascii-table": "^0.0.9",
+    "parse-ms": "^2.1.0",
+    "youtube-api": "^3.0.1",
+    "random-puppy": "^1.1.0",
+    "canvas": "^2.6.1",
+    "node-superfetch": "^0.1.10",
+    "relevant-urban": "^2.0.0",
+    "canvas-constructor": "^4.1.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
